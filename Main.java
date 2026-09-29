@@ -4,7 +4,7 @@ public class Main {
         Vendedor vendedor = new Vendedor(
                 "Santiago",
                 10000.00,
-                new ComisionEstandar() // Comisión estándar
+                new ComisionPersonalizada("Santiago")
         );
 
         vendedor.mostrarDetalle();
